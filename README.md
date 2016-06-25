@@ -4,7 +4,7 @@ This program generates pseudo-random number with a high entropy with a seed. It 
 
 # Usage
 
-Since it uses /dev/urandom , it only works on linux for now. Also it needs libtomcrypt to be compiled. So first, you have to install libtomcrypt. It also uses some features of C++11. So when you compile it, you have to tell to the compiler. After compiling, you can run the program without arguments.
+Since it uses /dev/urandom , it only works on linux for now. Also it needs libtomcrypt library to be compiled. So first, you have to install libtomcrypt. It also uses some features of C++11. So when you compile it, you have to tell to the compiler. After compiling, you can run the program without arguments.
 
 Installing libtomcrypt library
 <pre>
